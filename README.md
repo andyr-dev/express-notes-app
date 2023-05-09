@@ -1,4 +1,9 @@
 # Note Taker
+
+https://express-notes-taker-app.herokuapp.com/
+
+![image](https://user-images.githubusercontent.com/84158011/236980477-869122c2-67b0-4a56-b313-da5a70f834e9.png)
+
   
   ![None License](https://img.shields.io/badge/license-None-blueviolet)
   
@@ -25,7 +30,7 @@
 
   ## Usage
 
-  go to the website <website name here> to use the ntoes app
+  go to the website https://express-notes-taker-app.herokuapp.com/ to use the notes app
 
   <br/>
   
