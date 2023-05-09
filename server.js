@@ -4,7 +4,7 @@ const path = require("path");
 const api = require("./routes/index.js");
 const app = express();
 
-const PORT = process.env.port || 3001;
+const port = process.env.PORT || 3001;
 // Middleware
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
@@ -17,6 +17,6 @@ app.get("/notes", (req, res) =>
   res.sendFile(path.join(__dirname, "public/pages/notes.html"))
 );
 
-app.listen(PORT, () =>
-  console.log(`App listening at http://localhost:${PORT}`)
+app.listen(port, () =>
+  console.log(`Listening on :${port}`)
 );
